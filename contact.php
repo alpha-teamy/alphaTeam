@@ -1,6 +1,6 @@
 <?php
- $servername = "sql306.infinityfree.com";
-$username = "if0_38176358";
+ $servername = "if0_38176358";
+$username = "sql306.infinityfree.com";
 $password = "AI8RGHkXjWN7M ";  
 $dbname = "if0_38176358_XXX";
 
