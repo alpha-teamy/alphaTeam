@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alpha Team - Services</title>
+    <link rel="stylesheet" href="ss.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h2><a href="index.html">Alpha Team</a></h2>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index2.html">About</a></li>
+                <li><a href="service.html">Service</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <style>
+            .i1
+            {
+                object-fit: cover;
+            }
+            
+        </style>
+    </header>
+
+    <main>
+        <section class="team">
+            <h2>Our Client</h2>
+            <div id="service-container" class="team-container">
+                <div class="team-member">
+                    <a href="attendance.jpg">
+                        <img class="i1" src="attendance.jpg" width="250px" height="200px">
+                    </a>
+                    <h3>Attendance System</h3>
+                    <p>An attendance system is a comprehensive tool designed to manage and monitor the attendance of individuals within an organization, such as employees in a workplace, students in an educational institution, or participants in an event.
+                         These systems ensure accurate record-keeping, minimize errors, and streamline administrative processes.</p>
+                </div>
+                <br>
+                <div class="team-member">
+                    <a href="photo_2024-12-10_19-01-50.jpg">
+
+                        <img class="i1" src="photo_2024-12-10_19-01-50.jpg" width="250px" height="200px">
+                    </a>
+                    <h3>EarthQuake Project</h3>
+                    <p>An Earthquake Detection and Alert System is a crucial technological solution designed to detect seismic activities and issue timely alerts to minimize the impact on human lives and infrastructure.
+                         These systems utilize advanced sensors and algorithms to monitor and analyze ground movements in real-time, providing essential early warnings.</p>
+                </div>
+                <div class="team-member">
+                    <a href="firefighter.png">
+
+                        <img class="i1" src="firefighter.png" width="250px" height="200px">
+                    </a>
+                    <h3>FireFighter Robot</h3>
+                    <p>A Firefighter Robot is an innovative solution designed to assist or replace human firefighters in hazardous and life-threatening environments.
+                         These robots are equipped with advanced technology to detect, suppress, and prevent fires, ensuring safety while minimizing risks to human lives.</p>
+                </div>
+             
+                <div class="team-member hidden">
+                    <a href="POS_System_Cash_Register_Win10_Electronic_Touch_Screen_with_Terminal.jpeg">
+                        <img class="i1" src="POS_System_Cash_Register_Win10_Electronic_Touch_Screen_with_Terminal.jpeg" width="250px" height="200px">
+
+                    </a>
+                    <h3>Cashier System</h3>
+                    <p>Cashier System is a comprehensive tool designed to manage sales, inventory, and customer transactions efficiently in a retail or service environment. It integrates hardware and software solutions to provide a seamless checkout experience and backend management.
+
+                    </p>
+                </div>
+                <div class="team-member hidden">
+                    <a href="km.jpg">
+                        <img class="i1" src="km.jpg" width="250px" height="200px">
+
+                    </a>
+                    <h3>Online Pharmacy Web Application</h3>
+                    <p>An Online Pharmacy Web Application is a platform that allows users to browse and purchase medicines, health products, and wellness items online. It includes features like product search, prescription uploads, secure payments, order tracking, and online consultations, making healthcare accessible, convenient, and efficient.
+
+                    </p>
+                </div>
+                <div class="team-member hidden">
+                    <a href="ff.png">
+                        <img class="i1" src="ff.png" width="250px" height="200px">
+
+                    </a>
+                    <h3>Smart Traffic Light Control System</h3>
+                    <p>A Smart Traffic Light Control System is an advanced solution designed to optimize traffic flow and reduce congestion. Using sensors, real-time data, and AI algorithms, it dynamically adjusts traffic light timings based on vehicle density, pedestrian crossings, and emergency vehicle prioritization. This system improves road safety, minimizes delays, and enhances overall transportation efficiency.
+
+                    </p>
+                </div>
+                <div class="team-member hidden">
+                    <a href="yy.jpg">
+                        <img class="i1" src="yy.jpg" width="250px" height="200px">
+
+                    </a>
+                    <h3>password door lock system</h3>
+                    <p>A Password Door Lock System using Arduino is a secure and convenient access control solution. It involves an Arduino microcontroller, a keypad for password entry, and a locking mechanism like a servo motor or solenoid lock. Users can input a predefined password via the keypad to unlock the door. If the entered password matches the stored one, the Arduino triggers the lock to open. Incorrect attempts can be logged, and additional features like an LCD display, buzzer alerts, or password reset functions can be integrated for enhanced functionality. This system is ideal for homes, offices, and restricted areas.
+
+                    </p>
+                </div>
+                <div class="team-member hidden">
+                    <a href="bb.jpg">
+                        <img class="i1" src="bb.jpg" width="250px" height="200px">
+
+                    </a>
+                    <h3>bank management system </h3>
+                    <p>A Bank Management System Web Application is a platform for managing banking operations efficiently. It enables users to handle accounts, perform secure transactions, apply for loans, and access support. With an admin panel and robust security features, it ensures seamless, secure, and user-friendly banking for both customers and staff.
+
+                    </p>
+                </div>
+                
+            </div>
+            <button id="toggle-button" class="btn">Show All Services</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>Copyright &copy; 2024 AlphaTeam. All rights reserved.</p>
+    </footer>
+
+    <script>
+         const toggleButton = document.getElementById("toggle-button");
+        const hiddenServices = document.querySelectorAll(".hidden");
+
+        toggleButton.addEventListener("click", () => {
+            hiddenServices.forEach(service => {
+                service.classList.toggle("hidden");
+            });
+             toggleButton.textContent =
+                toggleButton.textContent === "Show All Services"
+                    ? "Show Less"
+                    : "Show All Services";
+        });
+    </script>
+</body>
+</html>

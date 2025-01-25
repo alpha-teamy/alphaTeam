@@ -1,0 +1,363 @@
+ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+    h2 > a{
+      text-decoration: none;
+      color: white;
+     }
+  .pamad
+  {
+    color: white;
+  }
+  p , h3
+  {
+    color: black;
+  }
+  
+  
+  body {
+    font-family: 'Arial', sans-serif;
+            background-color: #ffffff;
+            line-height: 1.6;
+            color: #FFFFFF;
+    
+  }
+  .m2
+  {
+    color: rgb(0, 0, 0);
+    animation: fade-in-slide 1.5s ease-out forwards;
+   }
+  
+  
+ 
+  header nav {
+    background: #000000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    flex-wrap: wrap;  
+  }
+  
+  header nav h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;  
+    padding: 0;
+  }
+  
+  nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    background: #e67e22; 
+    color: #000;
+    border-radius: 5px;
+  }
+  
+  footer > p
+  {
+    color: white;
+  }
+ 
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: url('https://source.unsplash.com/1920x1080/?technology') no-repeat center center/cover;
+    height: 100vh;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .hero-content {
+    max-width: 400px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+
+  }
+  
+  .hero-content h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-content .btn {
+    background: #e20404; 
+            color: rgb(255, 255, 255);
+            padding: 0.7rem;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 1rem;
+  }
+  
+  .hero-img img {
+    max-width: 100%;
+    height: auto;
+    animation: slide-in-right 1.5s ease-out forwards;
+        border-radius: 10px;
+   }
+  
+ 
+  .team {
+    text-align: center;
+    padding: 2rem;
+    background: #ffffff;
+  }
+  
+  .team h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    animation: fade-in-slide 1.5s ease-out forwards;
+    color: #ffffff;
+  }
+  
+  .team-container {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+  
+  .team-memberh {
+    background: #ffffff;
+            padding: 1rem;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.223);
+                        width: 300px;
+            transition: transform 0.2s ease;
+            animation: slide-in-left  1.5s ease-out forwards;
+  }
+  .team-membera {
+    background: #ffffff;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.223);
+    width: 300px;
+    transition: transform 0.2s ease;
+    animation: slide-in-right  1.5s ease-out forwards;
+  }
+  .team-memberm {
+    background: #f9f9f9;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.223);
+        width: 300px;
+    transition: transform 0.2s ease;
+    animation: fade-in-slide 1.5s ease-out forwards;
+  }
+  .team-memberk {
+    background: #f9f9f9;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.223);
+        width: 300px;
+    transition: transform 0.2s ease;
+    animation: slide-in-right  1.5s ease-out forwards;
+    
+  }
+  
+  .team-member:hover {
+    transform: translateY(-5px);
+  }
+  
+  .team-member h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .team-member p {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+  }
+  
+ 
+  .hidden {
+    display: none;
+  }
+  
+ 
+  .btn {
+    background-color: #e20404;
+     color: #fff;
+    padding: 0.7rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-top: 1rem;
+    display: inline-block;
+    transition: background 0.3s;
+    border: none;
+    cursor: pointer;
+    animation: fade-in-slide 1.5s ease-out forwards;
+  }
+  
+  .btn:hover {
+    background: #e67e22;
+  }
+  
+ 
+  footer {
+    text-align: center;
+    background: #000000;
+    color: #fff;
+    padding: 1rem 0;
+  }
+ 
+  .contact-us {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    animation: fade-in-slide 1.5s ease-out forwards;
+  }
+  
+  .contact-info,
+  .contact-form {
+    width: 100%;
+    max-width: 600px;
+    padding: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    header nav {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    nav ul {
+      justify-content: center;
+      gap: 0.5rem;
+    }
+  
+    nav ul li a {
+      padding: 0.5rem;
+    }
+  
+    .team-container {
+      gap: 1rem;
+    }
+  
+    .team-member {
+      width: 100%;
+      max-width: 350px;
+    }
+  
+    header nav h2 {
+      font-size: 1.2rem;
+    }
+  
+    .team h2 {
+      font-size: 1.6rem;
+    }
+  
+    .hero {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .hero-content {
+      padding: 0 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    header nav {
+      padding: 0.5rem;
+    }
+  
+    nav ul {
+      gap: 0.3rem;
+    }
+  
+    nav ul li a {
+      font-size: 0.9rem;
+    }
+  
+    .team h2 {
+      font-size: 1.3rem;
+    }
+  
+    .team-member {
+      font-size: 0.8rem;
+    }
+  
+    .btn {
+      font-size: 0.8rem;
+      padding: 0.5rem 1rem;
+    }
+  }
+  @keyframes background-slide {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+  @keyframes slide-in-right {
+    0% {
+      opacity: 0;
+      transform: translateX(100%); 
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);  
+    }
+  }
+  @keyframes slide-in-left {
+    0% {
+      opacity: 0;
+      transform: translateX(-100%);  
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0); 
+    }
+}
+
+  
+   @keyframes fade-in-slide {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+   @keyframes zoom-in {
+    0% {
+      transform: scale(0.8);
+      opacity: 0.5;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }          
